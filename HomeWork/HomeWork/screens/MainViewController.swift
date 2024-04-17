@@ -16,6 +16,8 @@ class MainViewController: UIViewController {
         view.backgroundColor = .lightGray
 
         createUICollectionView()
+        
+        navigationController?.navigationBar.barTintColor = .lightGray
     }
 
 
